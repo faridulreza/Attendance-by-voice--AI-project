@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-22dp"
+        android:accessibilityLiveRegion="polite"
+        android:text="Taking Sample"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:id="@+id/audio_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/images">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/mute_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/mutebtn"
+        android:visibility="gone">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/BeginText"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="2dp"
+        android:accessibilityLiveRegion="polite"
+        android:text="Tap on the icon to begin"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/MutText"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="2dp"
+        android:accessibilityLiveRegion="polite"
+        android:text="Tap on the icon to Stop"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone"/>
+
+</RelativeLayout>

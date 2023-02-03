@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823943406436",
+    "project_id": "aiapps-2db00",
+    "storage_bucket": "aiapps-2db00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823943406436:android:b310dbe21011d951b8d071",
+        "android_client_info": {
+          "package_name": "com.example.aiapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823943406436-isnau3vg93blkmsk1kfvlc8afn20mn0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbKqnL81hA-6Y6w7go3Pew67J5qes_KgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823943406436-isnau3vg93blkmsk1kfvlc8afn20mn0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
